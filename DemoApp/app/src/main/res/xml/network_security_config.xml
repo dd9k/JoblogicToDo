@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <!-- dev,  uat -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">pos.unit.vn</domain>
+        <pin-set>
+            <pin digest="SHA-256">x4QzPSC810K5/cMjb05Qm4k3Bw5zBn4lTdO/nEW/Td4=</pin>
+            <pin digest="SHA-256">vRU+17BDT2iGsXvOi76E7TQMcTLXAqj0+jGPdW7L1vM=</pin>
+        </pin-set>
+        <trustkit-config enforcePinning="true"></trustkit-config>
+    </domain-config>
+
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">pos-uat.unit.vn</domain>
+        <pin-set>
+            <pin digest="SHA-256">x4QzPSC810K5/cMjb05Qm4k3Bw5zBn4lTdO/nEW/Td4=</pin>
+            <pin digest="SHA-256">vRU+17BDT2iGsXvOi76E7TQMcTLXAqj0+jGPdW7L1vM=</pin>
+        </pin-set>
+        <trustkit-config enforcePinning="true"></trustkit-config>
+    </domain-config>
+
+
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">vinbus-tracking.unit.vn</domain>
+        <pin-set>
+            <pin digest="SHA-256">x4QzPSC810K5/cMjb05Qm4k3Bw5zBn4lTdO/nEW/Td4=</pin>
+            <pin digest="SHA-256">vRU+17BDT2iGsXvOi76E7TQMcTLXAqj0+jGPdW7L1vM=</pin>
+        </pin-set>
+        <trustkit-config enforcePinning="true"></trustkit-config>
+    </domain-config>
+
+    <!-- PRO -->
+
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">pos-afc.vinbus.vn</domain>
+        <pin-set>
+            <pin digest="SHA-256">cGuxAXyFXFkWm61cF4HPWX8S0srS9j0aSqN0k4AP+4A=</pin>
+            <pin digest="SHA-256">F2hlEOQfSSZ7xRku2DFAll03k8iI/cz08CllxvPpqYI=</pin>
+        </pin-set>
+        <trustkit-config enforcePinning="true"></trustkit-config>
+    </domain-config>
+
+</network-security-config>
+
+

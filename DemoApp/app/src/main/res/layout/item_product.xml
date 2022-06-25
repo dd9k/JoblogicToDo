@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <import type="com.example.joblogictodo.ui.utils.ConverterUtil"/>
+        <variable
+            name="item"
+            type="com.example.joblogictodo.domain.models.Product" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_name_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{@string/name_title + item.name}" />
+
+        <TextView
+            android:id="@+id/tv_price_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{@string/price_title + ConverterUtil.intToString(item.price)}" />
+
+        <TextView
+            android:id="@+id/tv_quantity_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{@string/quantity_title + ConverterUtil.intToString(item.quantity)}" />
+
+    </LinearLayout>
+</layout>

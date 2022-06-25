@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">JoblogicToDo</string>
+    <string name="call_list_title">Call List</string>
+    <string name="sell_list_title">Sell List</string>
+    <string name="buy_list_title">Buy List</string>
+    <string name="internet_error">No Internet</string>
+    <string name="something_wrong">Something went wrong, please restart the app or contact the administrator</string>
+    <string name="acc_refreshtoken_expired">Session Expired</string>
+    <string name="no_data_found">No data found</string>
+    <string name="loading_message">Loading…</string>
+    <string name="success_message">Success</string>
+    <string name="name_title">Name:&#160;</string>
+    <string name="number_title">Number:&#160;</string>
+    <string name="price_title">Price:&#160;</string>
+    <string name="quantity_title">Quantity:&#160;</string>
+</resources>
